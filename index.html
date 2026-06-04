@@ -4,157 +4,252 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eram Rahman | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Eram Rahman, a computer engineering student building full-stack software and robotics projects."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <h2 class="logo">Eram Rahman</h2>
-    <div class="nav-links">
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-      <a href="eram-rahman-resume.pdf" target="_blank">Resume</a>
-    </div>
-  </nav>
-
-  <!-- HERO -->
-  <section class="hero">
-    <h1>Computer Engineering Student @ UCSD</h1>
-    <p>
-      I design and build software systems, with projects spanning full-stack web development and robotics applications.
-    </p>
-
-    <div class="hero-buttons">
-      <a href="#projects" class="btn primary">View Projects</a>
-      <a href="https://www.linkedin.com/in/eram-rahman" target="_blank" class="btn">
-        LinkedIn
+  <div class="page-shell">
+    <nav class="navbar">
+      <a href="#" class="brand">
+        <span class="brand-mark">ER</span>
+        <span class="brand-text">Eram Rahman</span>
       </a>
-      <a href="https://github.com/EramRahman2831" target="_blank" class="btn">
-        GitHub
-      </a>
-    </div>
-  </section>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a href="eram-rahman-resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      </div>
+    </nav>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-  <h2>Projects</h2>
-
-    <!-- PC Recommender -->
-    <a
-        href="https://pcrecommender-git-main-eramrahman2831s-projects.vercel.app/"
-        target="_blank"
-        class="card-link"
-    >
-        <div class="card">
-        <h3>PC Recommender </h3>
-        <p>
-            A web application that guides users through a questionnaire to recommend
-            suitable custom builds and pre-built PCs based on budget and use case.
-        </p>
-        <p class="tech">React · Backend · Recommendation Logic</p>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Engineering Student at UC San Diego</p>
+          <h1>Building thoughtful software with a systems mindset.</h1>
+          <p class="hero-text">
+            I work across full-stack development, embedded systems, and robotics,
+            with a focus on practical software, strong system design, and reliable execution.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="https://github.com/EramRahman2831" target="_blank" rel="noreferrer" class="btn secondary">GitHub</a>
+            <a href="https://www.linkedin.com/in/eram-rahman" target="_blank" rel="noreferrer" class="btn secondary">LinkedIn</a>
+          </div>
         </div>
-    </a>
 
-        <!-- RC Drive Assist -->
-    <a
-        href="https://github.com/EramRahman2831/rc-drive-assist"
-        target="_blank"
-        class="card-link"
-    >
-        <div class="card">
-        <h3>RC Car Drive Assist<span class="tag">In Progress</span></h3>
-        <p>
-            Developing a vision-based drive assist system that processes camera
-            input to guide RC vehicle movement and assist driving decisions.
-        </p>
-        <p class="tech">Python · Computer Vision · Robotics</p>
+        <aside class="hero-panel">
+          <p class="panel-label">Current Focus</p>
+          <h2>Software, robotics, and applied problem solving.</h2>
+          <ul class="focus-list">
+            <li>Full-stack web applications with strong product framing</li>
+            <li>Computer vision and assistive robotics systems</li>
+            <li>Research-driven engineering in SLAM and perception</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="stats-grid" aria-label="Highlights">
+        <div class="stat-card">
+          <strong>100+</strong>
+          <span>custom PCs built, repaired, and optimized</span>
         </div>
-    </a>
-
-    <div class="card">
-      
-        <h3>Study Tracker</h3>
-        <p>
-            A full-stack academic productivity tracker that helps students manage courses, assignments, and study time with database-backed progress tracking and analytics.
-        </p>
-        <p class="tech">JAVA · JavaFX · SQL · Available Upon Request</p>
-    </div>
-    <!-- </a> -->
-
-    <!-- PC Store Website -->
-    <a
-        href="https://eramrahman2831.github.io/pcstorewebsite/"
-        target="_blank"
-        class="card-link"
-    >
-        <div class="card">
-        <h3>PC Store Website</h3>
-        <p>
-            A website built to support and manage a custom PC business, helping
-            customers browse systems, request support, and receive recommendations.
-        </p>
-        <p class="tech">HTML · CSS · JavaScript</p>
+        <div class="stat-card">
+          <strong>5</strong>
+          <span>portfolio projects across software and robotics</span>
         </div>
-    </a>
-
-
-    <!-- Voice Command Maps -->
-    <a
-        href="https://eramrahman2831.github.io/voicecommandmaps/"
-        target="_blank"
-        class="card-link"
-    >
-        <div class="card">
-        <h3>Voice Controlled Navigation</h3>
-        <p>
-            A navigation web app with voice commands, live GPS tracking, and
-            turn-by-turn directions using map APIs.
-        </p>
-        <p class="tech">JavaScript · Map APIs · Voice Input</p>
+        <div class="stat-card">
+          <strong>2026</strong>
+          <span>software engineering internship and active SLAM research</span>
         </div>
-    </a>
-   </section>
+      </section>
 
-  <!-- EXPERIENCE -->
-  <section id="experience" class="section">
-    <h2>Experience</h2>
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects</h2>
+          <p>
+            A mix of web products, productivity tools, and robotics-oriented systems.
+          </p>
+        </div>
 
-    <div class="card">
-      <h3>PC Technician & Owner <span class="tag">2019–Present</span></h3>
-      <p>
-        Built, repaired, and troubleshot 100+ custom PCs for gaming,
-        academic, and professional use. Provided hardware consulting,
-        system optimization, and technical support.
-      </p>
-    </div>
+        <div class="card-grid">
+          <a
+            href="https://pcrecommender-git-main-eramrahman2831s-projects.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            class="card-link"
+          >
+            <article class="card project-card featured">
+              <div class="card-topline">
+                <span class="card-kicker">Web Application</span>
+              </div>
+              <h3>PC Recommender</h3>
+              <p>
+                A guided recommendation platform that helps users choose custom or
+                pre-built PCs based on budget, use case, and performance priorities.
+              </p>
+              <p class="tech">React / Backend / Recommendation Logic</p>
+            </article>
+          </a>
 
-    <div class="card">
-      <h3>IT Volunteer – Tri Meadows Healthcare<span class="tag">2021–2022</span></h3>
-      <p>
-        Provided on-site and remote technical support for staff and
-        community members, troubleshooting hardware, software,
-        and network-related issues.
-      </p>
-    </div>
+          <a
+            href="https://github.com/EramRahman2831/rc-drive-assist"
+            target="_blank"
+            rel="noreferrer"
+            class="card-link"
+          >
+            <article class="card project-card">
+              <div class="card-topline">
+                <span class="card-kicker">Robotics</span>
+                <span class="tag">In Progress</span>
+              </div>
+              <h3>RC Car Drive Assist</h3>
+              <p>
+                A vision-based assist system that interprets camera input to support
+                safer RC vehicle movement and driving decisions.
+              </p>
+              <p class="tech">Python / Computer Vision / Robotics</p>
+            </article>
+          </a>
 
-    <div class="card">
-      <h3>SLAM (Simultaneous Localization and Mapping) Research<span class="tag">2026–Present</span></h3>
-      <p>
-        Research how robots understand and map places they have never seen before, including how they figure out where they are (SLAM), recognize objects in the environment, and make decisions when they are unsure.
-      </p>
-    </div>
-  </section>
+          <article class="card project-card">
+            <div class="card-topline">
+              <span class="card-kicker">Productivity Tool</span>
+            </div>
+            <h3>Study Tracker</h3>
+            <p>
+              A full-stack academic planning tool for managing courses, assignments,
+              study time, and progress data through a structured desktop workflow.
+            </p>
+            <p class="tech">Java / JavaFX / SQL / Available Upon Request</p>
+          </article>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:eramrahman674@gmail.com">eramrahman674@gmail.com</a></p>
-  </section>
+          <a
+            href="https://eramrahman2831.github.io/pcstorewebsite/"
+            target="_blank"
+            rel="noreferrer"
+            class="card-link"
+          >
+            <article class="card project-card">
+              <div class="card-topline">
+                <span class="card-kicker">Business Website</span>
+              </div>
+              <h3>PC Store Website</h3>
+              <p>
+                A customer-facing site for a custom PC business focused on system
+                discovery, service requests, and purchase guidance.
+              </p>
+              <p class="tech">HTML / CSS / JavaScript</p>
+            </article>
+          </a>
 
-  <footer>
-    <p>© 2026 Eram Rahman</p>
-  </footer>
+          <a
+            href="https://eramrahman2831.github.io/voicecommandmaps/"
+            target="_blank"
+            rel="noreferrer"
+            class="card-link"
+          >
+            <article class="card project-card">
+              <div class="card-topline">
+                <span class="card-kicker">Interactive Mapping</span>
+              </div>
+              <h3>Voice Controlled Navigation</h3>
+              <p>
+                A navigation app with voice commands, live GPS tracking, and map-based
+                routing for hands-free interaction.
+              </p>
+              <p class="tech">JavaScript / Map APIs / Voice Input</p>
+            </article>
+          </a>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Experience</h2>
+          <p>
+            Technical work spanning client service, hardware systems, and research.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="card timeline-card">
+            <div class="timeline-meta">2019 - Present</div>
+            <div>
+              <h3>PC Technician and Owner</h3>
+              <p>
+                Built, repaired, and troubleshot more than 100 custom PCs for gaming,
+                academic, and professional workloads, while providing hardware consulting
+                and technical support.
+              </p>
+            </div>
+          </article>
+
+          <article class="card timeline-card">
+            <div class="timeline-meta">2026</div>
+            <div>
+              <h3>Software Engineering Intern, GiosTech</h3>
+              <p>
+                Developed an interactive web application using Three.js to render and
+                interact with 3D human body models, implemented AI-driven exercise
+                recommendations based on user-reported pain locations, and built frontend
+                and backend flows to process input and deliver dynamic recommendations.
+              </p>
+            </div>
+          </article>
+
+          <article class="card timeline-card">
+            <div class="timeline-meta">2021 - 2022</div>
+            <div>
+              <h3>IT Volunteer, Tri Meadows Healthcare</h3>
+              <p>
+                Delivered on-site and remote support covering hardware, software, and
+                network troubleshooting for staff and community members.
+              </p>
+            </div>
+          </article>
+
+          <article class="card timeline-card">
+            <div class="timeline-meta">2026 - Present</div>
+            <div>
+              <h3>SLAM Research</h3>
+              <p>
+                Studying how robots localize, map unfamiliar environments, recognize
+                objects, and make decisions under uncertainty.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Open to software, robotics, and research opportunities.</h2>
+          </div>
+          <div class="contact-actions">
+            <p class="contact-email">eramrahman674@gmail.com</p>
+            <a href="eram-rahman-resume.pdf" target="_blank" rel="noreferrer" class="btn secondary">View Resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright 2026 Eram Rahman</p>
+    </footer>
+  </div>
 </body>
 </html>
